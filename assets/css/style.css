@@ -18,6 +18,16 @@ p {
 body {
     background-color: #d9dcd6;
 }
+/* Image float commands */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 
 /* All elements in the Header section */
 /* Changed all .header from class to element */
@@ -50,17 +60,6 @@ header nav {
 header li {
     list-style-type: none;
     display: inline-block;
-    margin-left: 25px;
-}
-
-/* Image float commands */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
     margin-left: 25px;
 }
 
@@ -108,7 +107,7 @@ font-size: 36px;
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefits article {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -119,19 +118,8 @@ font-size: 36px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+/* Combined all class commands into single class/element tag */
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
