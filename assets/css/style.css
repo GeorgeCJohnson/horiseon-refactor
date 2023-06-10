@@ -66,6 +66,8 @@
  .bannerimg{
     height: 800px;
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 25px;
     background-image: image-set(.assets\images\digital-marketing-meeting.jpg)
     background-size: cover;
